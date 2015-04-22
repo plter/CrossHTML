@@ -18,7 +18,8 @@ class ViewController: NSViewController {
 
         // Do any additional setup after loading the view.
         
-        webview.mainFrameURL = "http://www.jikexueyuan.com"
+        var thePath = NSBundle.mainBundle().resourcePath
+        webview.mainFrameURL = "\(thePath!)/www/index.html"
         
     }
 

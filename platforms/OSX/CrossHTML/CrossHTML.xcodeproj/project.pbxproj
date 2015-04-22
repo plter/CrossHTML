@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		31241B2A1AE761DC00B11ACD /* www in Resources */ = {isa = PBXBuildFile; fileRef = 31241B291AE761DC00B11ACD /* www */; };
 		31FB8E991AD7A3B000A5C0BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FB8E981AD7A3B000A5C0BB /* AppDelegate.swift */; };
 		31FB8E9B1AD7A3B000A5C0BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FB8E9A1AD7A3B000A5C0BB /* ViewController.swift */; };
 		31FB8E9E1AD7A3B000A5C0BB /* CrossHTML.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 31FB8E9C1AD7A3B000A5C0BB /* CrossHTML.xcdatamodeld */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		31241B291AE761DC00B11ACD /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = CrossHTML/www; sourceTree = "<group>"; };
 		31FB8E931AD7A3B000A5C0BB /* CrossHTML.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrossHTML.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31FB8E971AD7A3B000A5C0BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		31FB8E981AD7A3B000A5C0BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 		31FB8E8A1AD7A3B000A5C0BB = {
 			isa = PBXGroup;
 			children = (
+				31241B291AE761DC00B11ACD /* www */,
 				31FB8E951AD7A3B000A5C0BB /* CrossHTML */,
 				31FB8EAB1AD7A3B000A5C0BB /* CrossHTMLTests */,
 				31FB8E941AD7A3B000A5C0BB /* Products */,
@@ -195,6 +198,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31241B2A1AE761DC00B11ACD /* www in Resources */,
 				31FB8EA01AD7A3B000A5C0BB /* Images.xcassets in Resources */,
 				31FB8EA31AD7A3B000A5C0BB /* Main.storyboard in Resources */,
 			);
@@ -405,6 +409,7 @@
 				31FB8EB41AD7A3B000A5C0BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		31FB8EB51AD7A3B000A5C0BB /* Build configuration list for PBXNativeTarget "CrossHTMLTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +418,7 @@
 				31FB8EB71AD7A3B000A5C0BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
